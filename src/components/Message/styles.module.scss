@@ -1,0 +1,22 @@
+$green: green;
+
+.block1 {
+    width: 600px;
+    height: 100px;
+    background-color: #f3f3f3;
+    margin: 0 auto;
+
+    .p {
+        color: $green;
+        font-size: 34px;
+
+        @media(max-width: 800px) {
+            font-size: 20px;
+        }
+    }
+
+    .pp {
+        color: red;
+    }
+}
+
